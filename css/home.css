@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background: black url(./images/provoRiver2.jpeg) fixed center
 }
 
 h1 {
@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-    color: black;
+    color: white;
     font-size: 40px;
 }
 
@@ -18,8 +18,8 @@ header {
     display: flex; 
     align-items: center;
     justify-content: space-between;
-    background-color: black;
-    padding-right: 47px; 
+    /*background-color: black;
+    padding-right: 47px; */
 }
 
 ul {
@@ -48,9 +48,10 @@ li :visited {
 }
 
 p {
-    color: black;
+    color: white;
     text-align: center;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .left {
@@ -67,6 +68,9 @@ p {
     display: block;
     margin: 0 auto;
     width: auto;
+}
+.mini {
+    color:;
 }
 
 #inline {
