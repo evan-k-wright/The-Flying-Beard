@@ -1,14 +1,15 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 h1 {
     color: white;
     font-size: 60px;
+    padding-left: 10px;
 }
 
 h2 {
-    color: white;
+    color: black;
     font-size: 40px;
 }
 
@@ -17,10 +18,7 @@ header {
     display: flex; 
     align-items: center;
     justify-content: space-between;
-
-    background-image: url("./images/bridge.jpeg");
-    border-radius: 10px;
-    padding: 25px;
+    background-color: black; 
 }
 
 ul {
@@ -49,7 +47,7 @@ li :visited {
 }
 
 p {
-    color: white;
+    color: black;
     text-align: center;
     font-size: 20px;
 }
