@@ -82,6 +82,11 @@ p {
     font-weight: bold;
 }
 
+.p-four {
+    text-align: right;
+    font-size: small;
+}
+
 #inline {
     display: inline-block;
 }
