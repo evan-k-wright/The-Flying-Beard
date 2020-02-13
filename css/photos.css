@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+header {
+    width: 95vw;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+li :hover {
+    color: #2BBFB3 !important;
+}
+
+li :active{
+    color: #F0FF00 !important;
+}
+
+li :visited {
+    color: white
+}
+
+.left {
+    position: absolute;
+    left: 150px
+}
+
+.right {
+    position: absolute;
+    right: 150px;
+}
+
+#inline {
+    display: inline-block;
+}
