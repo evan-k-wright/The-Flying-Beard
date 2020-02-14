@@ -48,6 +48,10 @@ li :visited {
     color: white
 }
 
+.current {
+    color: #2BBFB3;
+}
+
 p {
     color: black;
     text-align: center;
