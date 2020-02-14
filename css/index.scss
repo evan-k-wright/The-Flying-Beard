@@ -1,0 +1,98 @@
+@import "./_variables";
+
+body {
+    width: 100vw;
+    background: black url(./images/provoRiver2.jpeg) fixed center;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background: rgba(0, 0, 0, .30);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: 95%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid white;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    margin: 10px 0px 10px 0px;
+}
+
+ul {
+    color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    word-spacing: 10px;
+    font-size: 25px;
+    display: flex;
+
+}
+
+li {
+    margin-left: 20px;
+    & :hover {
+        color: $green;
+    }
+
+    & :active {
+        color: darkgray;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.current {
+    color: $green;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    padding-left: 35px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.video {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+}
+.mini {
+    color: $green;
+    font-weight: bold;
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.p-four {
+    font-size: small;
+    margin: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
