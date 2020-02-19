@@ -1,66 +1,68 @@
 body {
-    width: 100vw;
-    background-color: black;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .background {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  nav {
-    width: 95%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 3px solid white; /*change to black when ready*/
-  }
-  
-  h1 {
-    color: white; /*change to black when ready*/
-    font-size: 60px;
-    margin: 10px 0px 10px 0px;
-  }
-  
-  ul {
-    color: white; /*change to black when ready*/
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    word-spacing: 10px;
-    font-size: 25px;
-    display: flex;
-  }
-  
-  li {
-    margin-left: 20px;
-  }
-  
-  li :hover {
-    color: #2BBFB3;
-  }
-  
-  li :active {
-    color: darkgray;
-  }
-  
-  li a {
-    text-decoration: none;
-    color: white; /*change to black when ready*/
-  }
-  
-  .current {
-    color: #2BBFB3;
-  }
-  
-  h2 {
-    color: white; /*change to black when ready*/
-    font-size: 40px;
-    padding-left: 35px;
-    text-align: center;
-  }
-  
+  width: 100vw;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.5) url(./images/provoRiver.jpeg) fixed center;
+  background-position: bottom 45% center;
+  /*background-size: 150% 75%;*/
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid white; /*change to black when ready*/
+}
+
+h1 {
+  color: white; /*change to black when ready*/
+  font-size: 60px;
+  margin: 10px 0px 10px 10px;
+}
+
+ul {
+  color: white; /*change to black when ready*/
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+  word-spacing: 10px;
+  font-size: 25px;
+  display: flex;
+}
+
+li {
+  margin-left: 20px;
+}
+
+li :hover {
+  color: #2BBFB3;
+}
+
+li :active {
+  color: darkgray;
+}
+
+li a {
+  text-decoration: none;
+  color: white; /*change to black when ready*/
+}
+
+.current {
+  color: #2BBFB3;
+}
+
+h2 {
+  color: white; /*change to black when ready*/
+  font-size: 40px;
+  padding-left: 35px;
+  text-align: center;
+}
