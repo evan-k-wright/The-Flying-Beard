@@ -14,7 +14,9 @@ body {
 }
 
 nav {
-  background: rgba(0, 0, 0, 0.3) url(./images/bridge.jpeg) fixed center;
+  background: rgba(0, 0, 0, 0.5) url(./images/bridge.jpeg) fixed center;
+  background-position: top 150% right 25%;
+  background-size: 125% 75%;
   width: 95%;
   display: flex;
   align-items: center;
