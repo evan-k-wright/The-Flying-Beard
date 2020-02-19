@@ -15,7 +15,6 @@ body {
 nav {
   background: rgba(0, 0, 0, 0.5) url(./images/provoRiver.jpeg) fixed center;
   background-position: bottom 45% center;
-  /*background-size: 150% 75%;*/
   width: 95%;
   display: flex;
   align-items: center;
