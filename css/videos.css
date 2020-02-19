@@ -5,8 +5,7 @@ body {
     padding: 0;
   }
   
-  .backGround {
-    background: rgba(0, 0, 0, 0.3);
+  .background {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -18,17 +17,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid white; /*change to black when ready*/
   }
   
   h1 {
-    color: white;
+    color: white; /*change to black when ready*/
     font-size: 60px;
     margin: 10px 0px 10px 0px;
   }
   
   ul {
-    color: white;
+    color: white; /*change to black when ready*/
     list-style: none;
     margin: 0;
     padding: 0;
@@ -51,7 +50,7 @@ body {
   
   li a {
     text-decoration: none;
-    color: white;
+    color: white; /*change to black when ready*/
   }
   
   .current {
@@ -59,7 +58,7 @@ body {
   }
   
   h2 {
-    color: white;
+    color: white; /*change to black when ready*/
     font-size: 40px;
     padding-left: 35px;
     text-align: center;
