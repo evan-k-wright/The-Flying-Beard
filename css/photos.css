@@ -81,11 +81,12 @@ h3 {
 }
 
 .photos {
-  height: 400px;
-  width: 600px;
-  padding: 5px;
-  border-radius: 20px;
-  margin-left: 18px;
+  height: 300px;
+  width: 500px;
+  padding: 25px;
+  border-radius: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .instagram {
