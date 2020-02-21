@@ -1,11 +1,12 @@
 body {
   width: 100vw;
-  background-color: black;
+  background: black url(./images/woodFence.jpeg) fixed center;
   margin: 0;
   padding: 0;
 }
 
 .backGround {
+  background: rgba(0, 0, 0, 0.3);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -13,9 +14,9 @@ body {
 }
 
 nav {
-  background: rgba(0, 0, 0, 0.5) url(./images/bridge.jpeg) fixed center;
+  /*background: rgba(0, 0, 0, 0.5) url(./images/bridge.jpeg) fixed center;
   background-position: top 150% right 25%;
-  background-size: 125% 75%;
+  background-size: 125% 75%;*/
   width: 95%;
   display: flex;
   align-items: center;
@@ -84,6 +85,7 @@ h2 {
 .instagram {
   height: 18px;
   width: 18px;
+  padding-right: 2px;
 }
 
 /*# sourceMappingURL=photos.css.map */
