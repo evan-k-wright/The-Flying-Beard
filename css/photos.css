@@ -74,4 +74,10 @@ h2 {
   
 }
 
+img {
+  height: 400px;
+  width: 600px;
+  padding: 10px;
+}
+
 /*# sourceMappingURL=photos.css.map */
