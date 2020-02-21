@@ -74,6 +74,12 @@ h2 {
   padding: 10px;
 }
 
+h3 {
+  color: white;
+  padding-left: 35px;
+  text-align: left;
+}
+
 .photos {
   height: 400px;
   width: 600px;
