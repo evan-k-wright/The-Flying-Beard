@@ -67,4 +67,11 @@ h2 {
   text-align: center;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  
+}
+
 /*# sourceMappingURL=photos.css.map */
