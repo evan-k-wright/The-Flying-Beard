@@ -89,10 +89,39 @@ h3 {
   margin-right: 15px;
 }
 
-.instagram {
-  height: 18px;
-  width: 18px;
+footer {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+img {
+  height: 15px;
+  width: 15px;
   padding-right: 3px;
+}
+
+.instagram {
+  color: white;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: right;
+
+}
+
+.instagram :hover {
+  color: #2BBFB3;
+}
+
+.instagram :active {
+  color: darkgray;
+}
+
+.instagram a {
+  text-decoration: none;
+  color: white;
 }
 
 /*# sourceMappingURL=photos.css.map */
