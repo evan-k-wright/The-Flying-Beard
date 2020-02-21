@@ -61,14 +61,14 @@ li a {
 }
 
 h2 {
-  color: white; /*change to black when ready*/
+  color: whitesmoke; /*change to black when ready*/
   font-size: 40px;
   padding-left: 35px;
   text-align: center;
 }
 
 p {
-  color: white;
+  color: whitesmoke;
   padding-left: 35px;
   text-align: center;
   font-size: 20px;
