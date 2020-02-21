@@ -73,12 +73,17 @@ h2 {
   padding: 10px;
 }
 
-img {
+.photos {
   height: 400px;
   width: 600px;
   padding: 5px;
   border-radius: 20px;
   margin-left: 18px;
+}
+
+.instagram {
+  height: 18px;
+  width: 18px;
 }
 
 /*# sourceMappingURL=photos.css.map */

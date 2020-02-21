@@ -78,3 +78,8 @@ video {
   width: auto;
   border-radius: 10px;
 }
+
+img {
+  height: 18px;
+  width: 18px;
+}
