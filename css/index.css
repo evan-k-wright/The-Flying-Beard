@@ -80,8 +80,16 @@ video {
 }
 
 .mini {
-  color: #2BBFB3;
+  color: white;
   font-weight: bold;
+}
+
+.mini :hover {
+  color: #2BBFB3;
+}
+
+.mini :active {
+  color: darkgray;
 }
 
 footer {
