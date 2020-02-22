@@ -68,11 +68,11 @@ h2 {
   text-align: center;
 }
 
-.grid {
+/*.grid {
   display: grid;
   grid-template-columns: auto auto;
   padding: 10px;
-}
+}*/
 
 h3 {
   color: white;
