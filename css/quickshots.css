@@ -74,6 +74,19 @@ p {
   font-size: 20px;
 }
 
+.app {
+  color: whitesmoke;
+  font: bold;
+}
+
+span :hover {
+  color: #2BBFB3;
+}
+
+span :active {
+  color: darkgray;
+}
+
 .grid {
   display: grid;
   grid-template-columns: auto auto;
