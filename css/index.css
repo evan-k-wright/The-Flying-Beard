@@ -72,15 +72,21 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.media {
+  display: flex;
+  flex-direction: row;
+}
+
 .mavicMini {
-  height: 450px;
-  width: 500px;
-  border-radius: 20px;
+  height: 340px;
+  width: 400px;
+  border-radius: 30px;
+  padding-right: 15px;
 }
 
 video {
   display: block;
-  margin: 0 auto;
+  margin: 0, 0, 0, 0;
   width: auto;
   border-radius: 10px;
 }
