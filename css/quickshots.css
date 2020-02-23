@@ -74,6 +74,26 @@ p {
   font-size: 20px;
 }
 
+.btn {
+  border-radius: 10px;
+  outline: none;
+  margin-left: 15px;
+  padding: 7px 11px;
+  cursor: pointer;
+  font-size: 13px;
+  background-color: rgba(0, 0, 0, 0.35);
+  color: white;
+}
+
+.filter :hover {
+  background-color: #2BBFB3;
+}
+
+.fiilter :active{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #2BBFB3;
+}
+
 .app {
   color: whitesmoke;
   font: bold;
