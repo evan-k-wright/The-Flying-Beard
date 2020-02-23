@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Flying Beard-QuickShots</title>
     <link href="../css/quickshots.css" type="text/css" rel="stylesheet">
+    <!--<script src="../javascript/quickshot.js"></script>-->
 </head>
 <body>
     <div class="background">
@@ -22,31 +23,31 @@
             <h2>QuickShots</h2>
             <p>QuickShot effect, color, and music are added <br> when you downlaod the quickshot video to your <br> device from the drone through the <span><a class="app" href="https://www.dji.com/dji-fly" target="_blank"> DJI Fly App</a></span></p>
 
-            <div class="filter">
+            <!--<div id="filterBtn" class="filter">
                 <button class="btn active" onclick="filterSelection('all')">Show All</button>
                 <button class="btn" onclick="filterSelection('dronie')">Dronie</button>
                 <button class="btn" onclick="filterSelection('rocket')">Rocket</button>
                 <button class="btn" onclick="filterSelection('circle')">Circle</button>
                 <button class="btn" onclick="filterSelection('helix')">Helix</button>
-            </div>
+            </div>-->
 
             <div class="grid">
                 <!--<h3>Adams Canyon</h3>-->
-                <video class="rocket" width="580" height="350" controls="controls">
+                <video class="filter rocket" width="580" height="350" controls="controls">
                     <source src="./quickshots/lowerFalls.mov" type="video/mp4">
                 </video>
 
                 <!--<h3>Provo River</h3>-->
-                <video class="dronie" width="580" height="350" controls="controls">
+                <video class="filter dronie" width="580" height="350" controls="controls">
                     <source src="./quickshots/provoRiver.mov" type="video/mp4">
                 </video>
 
                 <!--<h3>Provo Canyon</h3>-->
-                <video class="dronie" width="580" height="350" controls="controls">
+                <video class="filter dronie" width="580" height="350" controls="controls">
                     <source src="./quickshots/provoCanyon.mov" type="video/mp4">
                 </video>
 
-                <video class="helix" width="580" height="350" controls="controls">
+                <video class="filter helix" width="580" height="350" controls="controls">
                     <source src="./quickshots/theCircle.mov" type="video/mp4">
                 </video>
             </div>
