@@ -74,21 +74,22 @@ p {
 
 .media {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .mavicMini {
+  display: flex;
+  align-self: center;
   height: 340px;
   width: 400px;
   border-radius: 30px;
-  padding-right: 15px;
+  padding-bottom: 15px;
 }
 
 video {
-  display: block;
-  margin: 0, 0, 0, 0;
-  width: auto;
-  border-radius: 10px;
+  display: flex;
+  align-self: center;
+  border-radius: 20px;
 }
 
 .mini {
