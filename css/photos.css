@@ -83,6 +83,7 @@ h3 {
 .title {
   margin-top: 20px;
   margin-bottom: 0px;
+  text-decoration: underline;
 }
 
 .photos {
