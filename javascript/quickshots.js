@@ -30,8 +30,11 @@ const quickShot = [{
     type: 'helix'
 }];
 
-    let showDronie = quickShot.filter(function(dronie) {
+function showDronie() {
+    let dronieShow = quickShot.filter(function(dronie) {
     return dronie.type === 'dronie';
-});
+})
+    console.log(dronieShow);
+};
 
-console.log(showDronie);
+//console.log(showDronie());
