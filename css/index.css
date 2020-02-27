@@ -83,7 +83,7 @@ p {
 .mavicMini {
   display: flex;
   align-self: center;
-  height: 400px;
+  height: 480px;
   width: 580px;
   border-radius: 30px;
   padding-bottom: 15px;
